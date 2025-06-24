@@ -7,7 +7,7 @@ Aggiungi al tuo `lazy.nvim` setup:
 
 ```lua
 {
-  "Manu/nvim-theme-bundle",
+  "TheCGuy73/nvim-theme-bundle",
   lazy = false, -- carica subito il tema
   priority = 1000, -- assicurati che venga caricato prima degli altri plugin
 }
