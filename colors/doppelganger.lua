@@ -35,4 +35,11 @@ vim.api.nvim_set_hl(0, "Error",       { fg = colors.error, bg = colors.bg, bold 
 vim.api.nvim_set_hl(0, "Todo",        { fg = colors.keyword, bold = true, italic = true })
 vim.api.nvim_set_hl(0, "LineNr",      { fg = colors.linenr, bg = colors.bg })
 vim.api.nvim_set_hl(0, "CursorLine",  { bg = colors.cursorline })
-vim.api.nvim_set_hl(0, "Visual",      { bg = colors.visual }) 
+vim.api.nvim_set_hl(0, "Visual",      { bg = colors.visual })
+
+-- Statusline mode colors (per lualine, mini.statusline, ecc.)
+vim.api.nvim_set_hl(0, "StatusLineNormal",  { fg = colors.bg, bg = colors.comment, bold = true })
+vim.api.nvim_set_hl(0, "StatusLineInsert",  { fg = colors.bg, bg = colors.number, bold = true })
+vim.api.nvim_set_hl(0, "StatusLineVisual",  { fg = colors.bg, bg = colors.type, bold = true })
+vim.api.nvim_set_hl(0, "StatusLineCommand", { fg = colors.bg, bg = colors.special, bold = true })
+vim.api.nvim_set_hl(0, "StatusLineReplace", { fg = colors.bg, bg = colors.error, bold = true }) 
