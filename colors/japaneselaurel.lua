@@ -1,23 +1,21 @@
--- Japanese Laurel colorscheme for Neovim (sobrio, palette unica)
--- Palette base: #0B8A07 (Japanese Laurel), #D0E4CE (Surf Crest),
---               #1D5640 (Green Pea), #E1E3D8 (Moon Mist),
---               #3D6D31 (Chalet Green), #B0CD40 (Earls Green)
+-- Japanese Laurel colorscheme for Neovim (sobrio, desaturato)
+-- Palette base: desaturata di #0B8A07, #D0E4CE, #1D5640, #E1E3D8, #3D6D31, #B0CD40
 
 local colors = {
-  bg         = "#0B8A07",    -- Japanese Laurel
-  fg         = "#E1E3D8",    -- Moon Mist (più soft di Surf Crest)
-  laurel     = "#0B8A07",    -- Japanese Laurel
-  surf       = "#D0E4CE",    -- Surf Crest
-  greenpea   = "#1D5640",    -- Green Pea
-  moonmist   = "#E1E3D8",    -- Moon Mist
-  chalet     = "#3D6D31",    -- Chalet Green
-  earls      = "#B0CD40",    -- Earls Green
-  accent     = "#7A9D54",    -- Verde medio desaturato (Evergreen)
-  comment    = "#A3B9A7",    -- Verde chiaro soft (Green Pea)
-  keyword    = "#B0CD40",    -- Earls Green
-  string     = "#B7D8B7",    -- Verde molto chiaro (Japanese Laurel)
-  number     = "#B0CD40",    -- Earls Green
-  error      = "#B0CD40",    -- Earls Green
+  bg         = "#1A3F18",    -- Japanese Laurel molto desaturato
+  fg         = "#E3E5DF",    -- Moon Mist desaturato
+  laurel     = "#3A5C2E",    -- Japanese Laurel desaturato
+  surf       = "#C7D3C5",    -- Surf Crest desaturato
+  greenpea   = "#35594B",    -- Green Pea desaturato
+  moonmist   = "#D8DAD3",    -- Moon Mist desaturato
+  chalet     = "#4B5E3B",    -- Chalet Green desaturato
+  earls      = "#AEBB7A",    -- Earls Green desaturato
+  accent     = "#7E8F6A",    -- Verde medio molto soft
+  comment    = "#A3B1A7",    -- Verde chiaro soft e spento
+  keyword    = "#AEBB7A",    -- Earls Green desaturato
+  string     = "#B7C8B7",    -- Verde molto chiaro e spento
+  number     = "#AEBB7A",    -- Earls Green desaturato
+  error      = "#AEBB7A",    -- Earls Green desaturato
 }
 
 vim.cmd("highlight clear")
