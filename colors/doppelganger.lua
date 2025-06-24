@@ -1,4 +1,4 @@
--- Zenbuddy colorscheme for Neovim (ispirato a Zenburn)
+-- Doppelganger colorscheme for Neovim (ispirato a Zenburn)
 -- Palette: toni soft, verdi/grigi/marroni desaturati
 
 local colors = {
@@ -19,7 +19,7 @@ local colors = {
 
 vim.cmd("highlight clear")
 vim.o.background = "dark"
-vim.g.colors_name = "zenbuddy"
+vim.g.colors_name = "doppelganger"
 
 vim.api.nvim_set_hl(0, "Normal",      { fg = colors.fg, bg = colors.bg })
 vim.api.nvim_set_hl(0, "Comment",     { fg = colors.comment, italic = true })
