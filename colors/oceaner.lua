@@ -1,18 +1,18 @@
--- Oceaner colorscheme for Neovim
--- Palette: #095256, #087F8C, #5AAA95, #86A873, #BB9F06
+-- Oceaner colorscheme for Neovim (sobrio)
+-- Palette: #23484D, #3B7A85, #7CAAA0, #A0B89C, #BBAF4A
 
 local colors = {
-  bg       = "#095256",
-  fg       = "#FFFFFF",
-  cyan     = "#087F8C",
-  teal     = "#5AAA95",
-  green    = "#86A873",
-  yellow   = "#BB9F06",
-  comment  = "#5AAA95",
-  keyword  = "#BB9F06",
-  string   = "#86A873",
-  number   = "#BB9F06",
-  error    = "#BB9F06",
+  bg       = "#23484D",
+  fg       = "#E6E6E6",
+  cyan     = "#3B7A85",
+  teal     = "#7CAAA0",
+  green    = "#A0B89C",
+  yellow   = "#BBAF4A",
+  comment  = "#7CAAA0",
+  keyword  = "#BBAF4A",
+  string   = "#A0B89C",
+  number   = "#BBAF4A",
+  error    = "#BBAF4A",
 }
 
 vim.cmd("highlight clear")
@@ -32,5 +32,5 @@ vim.api.nvim_set_hl(0, "Special",     { fg = colors.yellow })
 vim.api.nvim_set_hl(0, "Error",       { fg = colors.error, bg = colors.bg, bold = true })
 vim.api.nvim_set_hl(0, "Todo",        { fg = colors.yellow, bold = true, italic = true })
 vim.api.nvim_set_hl(0, "LineNr",      { fg = colors.teal, bg = colors.bg })
-vim.api.nvim_set_hl(0, "CursorLine",  { bg = "#0B6E6E" })
-vim.api.nvim_set_hl(0, "Visual",      { bg = "#087F8C" }) 
+vim.api.nvim_set_hl(0, "CursorLine",  { bg = "#3B7A85" })
+vim.api.nvim_set_hl(0, "Visual",      { bg = "#7CAAA0" }) 

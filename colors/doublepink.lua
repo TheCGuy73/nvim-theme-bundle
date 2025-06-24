@@ -1,18 +1,18 @@
--- DoublePink colorscheme for Neovim
--- Palette: #2F2F2F, #DC7F9B, #F7A1C4, #E0B7B7, #94BFA7
+-- DoublePink colorscheme for Neovim (sobrio)
+-- Palette: #353535, #B97A8D, #D8A6BC, #C9B2B2, #A3B9A7
 
 local colors = {
-  bg       = "#2F2F2F",
-  fg       = "#FFFFFF",
-  pink1    = "#DC7F9B",
-  pink2    = "#F7A1C4",
-  rose     = "#E0B7B7",
-  mint     = "#94BFA7",
-  comment  = "#94BFA7",
-  keyword  = "#F7A1C4",
-  string   = "#E0B7B7",
-  number   = "#F7A1C4",
-  error    = "#DC7F9B",
+  bg       = "#353535",
+  fg       = "#E6E6E6",
+  pink1    = "#B97A8D",
+  pink2    = "#D8A6BC",
+  rose     = "#C9B2B2",
+  mint     = "#A3B9A7",
+  comment  = "#A3B9A7",
+  keyword  = "#B97A8D",
+  string   = "#C9B2B2",
+  number   = "#D8A6BC",
+  error    = "#B97A8D",
 }
 
 vim.cmd("highlight clear")

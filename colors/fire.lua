@@ -1,18 +1,18 @@
--- Fire colorscheme for Neovim
--- Palette: #EF7674, #EC5766, #DA344D, #D91E36, #C42348
+-- Fire colorscheme for Neovim (sobrio)
+-- Palette: #A84A4A, #B85C5C, #C96C6C, #A84A4A, #E6B8B8
 
 local colors = {
-  bg       = "#C42348",
-  fg       = "#FFFFFF",
-  red1     = "#EC5766",
-  red2     = "#DA344D",
-  red3     = "#D91E36",
-  accent   = "#EF7674",
-  comment  = "#EC5766",
-  keyword  = "#EF7674",
-  string   = "#EC5766",
-  number   = "#DA344D",
-  error    = "#D91E36",
+  bg       = "#A84A4A",
+  fg       = "#F0EAEA",
+  red1     = "#B85C5C",
+  red2     = "#C96C6C",
+  red3     = "#E6B8B8",
+  accent   = "#C96C6C",
+  comment  = "#E6B8B8",
+  keyword  = "#B85C5C",
+  string   = "#E6B8B8",
+  number   = "#C96C6C",
+  error    = "#B85C5C",
 }
 
 vim.cmd("highlight clear")

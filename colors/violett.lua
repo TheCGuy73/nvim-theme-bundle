@@ -1,18 +1,18 @@
--- Violett colorscheme for Neovim
--- Palette: #A09ABC, #B6A6CA, #D5CFE1, #E1DEE9, #D4BEBE
+-- Violett colorscheme for Neovim (sobrio)
+-- Palette: #7C7893, #A89EB3, #CFC9D9, #DAD7E2, #BBAEAE
 
 local colors = {
-  bg       = "#A09ABC",
-  fg       = "#FFFFFF",
-  purple1  = "#B6A6CA",
-  purple2  = "#D5CFE1",
-  light    = "#E1DEE9",
-  accent   = "#D4BEBE",
-  comment  = "#B6A6CA",
-  keyword  = "#E1DEE9",
-  string   = "#D4BEBE",
-  number   = "#D5CFE1",
-  error    = "#D4BEBE",
+  bg       = "#7C7893",
+  fg       = "#F0F0F0",
+  purple1  = "#A89EB3",
+  purple2  = "#CFC9D9",
+  light    = "#DAD7E2",
+  accent   = "#BBAEAE",
+  comment  = "#A89EB3",
+  keyword  = "#CFC9D9",
+  string   = "#BBAEAE",
+  number   = "#CFC9D9",
+  error    = "#BBAEAE",
 }
 
 vim.cmd("highlight clear")
