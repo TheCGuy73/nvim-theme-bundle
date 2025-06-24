@@ -3,13 +3,13 @@
 
 local colors = {
   bg       = "#2F2F2F",
-  fg       = "#F7A1C4",
+  fg       = "#FFFFFF",
   pink1    = "#DC7F9B",
   pink2    = "#F7A1C4",
   rose     = "#E0B7B7",
   mint     = "#94BFA7",
   comment  = "#94BFA7",
-  keyword  = "#DC7F9B",
+  keyword  = "#F7A1C4",
   string   = "#E0B7B7",
   number   = "#F7A1C4",
   error    = "#DC7F9B",

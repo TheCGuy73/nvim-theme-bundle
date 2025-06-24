@@ -3,13 +3,13 @@
 
 local colors = {
   bg       = "#095256",
-  fg       = "#E0E0E0",
+  fg       = "#FFFFFF",
   cyan     = "#087F8C",
   teal     = "#5AAA95",
   green    = "#86A873",
   yellow   = "#BB9F06",
   comment  = "#5AAA95",
-  keyword  = "#087F8C",
+  keyword  = "#BB9F06",
   string   = "#86A873",
   number   = "#BB9F06",
   error    = "#BB9F06",

@@ -3,20 +3,20 @@
 
 local colors = {
   bg       = "#A09ABC",
-  fg       = "#22223B",
+  fg       = "#FFFFFF",
   purple1  = "#B6A6CA",
   purple2  = "#D5CFE1",
   light    = "#E1DEE9",
   accent   = "#D4BEBE",
   comment  = "#B6A6CA",
-  keyword  = "#B6A6CA",
+  keyword  = "#E1DEE9",
   string   = "#D4BEBE",
   number   = "#D5CFE1",
   error    = "#D4BEBE",
 }
 
 vim.cmd("highlight clear")
-vim.o.background = "light"
+vim.o.background = "dark"
 vim.g.colors_name = "violett"
 
 vim.api.nvim_set_hl(0, "Normal",      { fg = colors.fg, bg = colors.bg })
